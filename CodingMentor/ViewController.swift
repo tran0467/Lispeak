@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -48,6 +49,14 @@ let plans = [
     "Chain stratagems",
     "If all else fails, retreat"
 ]
+    func speak(sentence:String){
+    let utterance = AVSpeechUtterance(string: sentence)
+    utterance.voice = AVSpeechSynthesisVoice(language: "en-AU")
+    utterance.rate = 0.5
+
+    let synthesizer = AVSpeechSynthesizer()
+    synthesizer.speak(utterance)
+    }
     
     @IBOutlet weak var label: UILabel!
     
@@ -55,16 +64,29 @@ let plans = [
     
     @IBOutlet weak var button: UIButton!
     
+    @IBAction func tap(_ sender: Any) {
+        print("hello")
+    }
+    
     var count = 0
     
     @IBAction func press(_ sender: Any) {
         count += 1
-        if (count >= plans.count){
-            count = 0
+        if (count > plans.count){
+            count = 1
         }
-        label.text = plans[count]
+        label.text = plans[count-1]
         num.text = "\(count)"
+        
+        self.label.alpha = 0
+
+        UIView.animate(withDuration: 1.0, animations: {
+            self.label.alpha = 1.0
+        })
+        
+        speak(sentence: plans[count-1])
     }
+    
     
     
     override func viewDidLoad() {
