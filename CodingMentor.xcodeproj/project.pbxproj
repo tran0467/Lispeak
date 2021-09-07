@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04652C0526E23D5B002BAE05 /* CodingMentor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingMentor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04652C0526E23D5B002BAE05 /* Lispeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lispeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04652C0826E23D5B002BAE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04652C0A26E23D5B002BAE05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04652C0C26E23D5B002BAE05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		04652C0626E23D5B002BAE05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04652C0526E23D5B002BAE05 /* CodingMentor.app */,
+				04652C0526E23D5B002BAE05 /* Lispeak.app */,
 				04652C1B26E23D5E002BAE05 /* CodingMentorTests.xctest */,
 				04652C2626E23D5E002BAE05 /* CodingMentorUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = CodingMentor;
 			productName = CodingMentor;
-			productReference = 04652C0526E23D5B002BAE05 /* CodingMentor.app */;
+			productReference = 04652C0526E23D5B002BAE05 /* Lispeak.app */;
 			productType = "com.apple.product-type.application";
 		};
 		04652C1A26E23D5E002BAE05 /* CodingMentorTests */ = {
@@ -441,7 +441,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Mac.CodingMentor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lispeak;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Mac.CodingMentor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lispeak;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
