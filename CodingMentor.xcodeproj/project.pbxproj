@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0437B98626EF820500D920AC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B98526EF820500D920AC /* ListViewController.swift */; };
 		04652C0926E23D5B002BAE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04652C0826E23D5B002BAE05 /* AppDelegate.swift */; };
 		04652C0B26E23D5B002BAE05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04652C0A26E23D5B002BAE05 /* SceneDelegate.swift */; };
 		04652C0D26E23D5B002BAE05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04652C0C26E23D5B002BAE05 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		04652C1526E23D5E002BAE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04652C1326E23D5E002BAE05 /* LaunchScreen.storyboard */; };
 		04652C2026E23D5E002BAE05 /* CodingMentorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04652C1F26E23D5E002BAE05 /* CodingMentorTests.swift */; };
 		04652C2B26E23D5E002BAE05 /* CodingMentorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04652C2A26E23D5E002BAE05 /* CodingMentorUITests.swift */; };
+		047E2C3926F0243F00E7444A /* ListeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E2C3826F0243F00E7444A /* ListeningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0437B98526EF820500D920AC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		04652C0526E23D5B002BAE05 /* Lispeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lispeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04652C0826E23D5B002BAE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04652C0A26E23D5B002BAE05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		04652C2626E23D5E002BAE05 /* CodingMentorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingMentorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04652C2A26E23D5E002BAE05 /* CodingMentorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingMentorUITests.swift; sourceTree = "<group>"; };
 		04652C2C26E23D5E002BAE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047E2C3826F0243F00E7444A /* ListeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		04652C0726E23D5B002BAE05 /* CodingMentor */ = {
 			isa = PBXGroup;
 			children = (
+				0437B98526EF820500D920AC /* ListViewController.swift */,
+				047E2C3826F0243F00E7444A /* ListeningViewController.swift */,
 				04652C0826E23D5B002BAE05 /* AppDelegate.swift */,
 				04652C0A26E23D5B002BAE05 /* SceneDelegate.swift */,
 				04652C0C26E23D5B002BAE05 /* ViewController.swift */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047E2C3926F0243F00E7444A /* ListeningViewController.swift in Sources */,
 				04652C0D26E23D5B002BAE05 /* ViewController.swift in Sources */,
 				04652C0926E23D5B002BAE05 /* AppDelegate.swift in Sources */,
+				0437B98626EF820500D920AC /* ListViewController.swift in Sources */,
 				04652C0B26E23D5B002BAE05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
