@@ -87,7 +87,7 @@ class ViewController: UIViewController {
         if (count > tasks.count){
             count = 1
         }
-//        print(tasks[count])
+        print(tasks[count])
         label.text = tasks[count-1]
         num.text = "\(count)"
         
