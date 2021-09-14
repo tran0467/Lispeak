@@ -8,6 +8,9 @@
 
 import UIKit
 
+var accent:String = ""
+var speed:Float = 0.5
+
 class SettingViewController: UIViewController {
 
     @IBOutlet weak var accentPicker: UIPickerView!
@@ -19,14 +22,15 @@ class SettingViewController: UIViewController {
     @IBOutlet weak var saveButton: UIButton!
     
     @IBAction func pressStepper(_ sender: UIStepper) {
+        stepperButton.stepValue = 0.1
         speedLabel.text = String(sender.value)
     }
     
-    var accent:String = ""
-    var speed:Double = 0.5
-    
     @IBAction func pressSaveButton(_ sender: Any) {
-        
+        accent = data[accentPicker.selectedRow(inComponent: 0)]
+        print (accent)
+        speed = Float(speedLabel.text!)!
+        print (speed)
     }
     
     

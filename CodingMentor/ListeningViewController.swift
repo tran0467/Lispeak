@@ -22,8 +22,8 @@ class ListeningViewController: UIViewController {
     
     func speak(sentence:String){
         let utterance = AVSpeechUtterance(string: sentence)
-        utterance.voice = AVSpeechSynthesisVoice(language: "en-AU")
-        utterance.rate = 0.5
+        utterance.voice = AVSpeechSynthesisVoice(language: accent)
+        utterance.rate = speed
 
         let synthesizer = AVSpeechSynthesizer()
         synthesizer.speak(utterance)
@@ -37,16 +37,18 @@ class ListeningViewController: UIViewController {
                 count = 1
             }
     //        print(tasks[count])
-            textView.text = tasks[count-1]
+//            textView.text = tasks[count-1]
             numberView.text = "\(count)"
             
-            self.textView.alpha = 0
-
-            UIView.animate(withDuration: 1.0, animations: {
-                self.textView.alpha = 1.0
-            })
+//            self.textView.alpha = 0
+//
+//            UIView.animate(withDuration: 1.0, animations: {
+//                self.textView.alpha = 1.0
+//            })
             
             speak(sentence: tasks[count-1])
+            textView.text = ""
+            
         }
         
         
@@ -56,7 +58,7 @@ class ListeningViewController: UIViewController {
             UIView.animate(withDuration: 1.0, animations: {
                 self.textView.alpha = 1.0
             })
-            
+//            textView.text = tasks[count-1]
             speak(sentence: tasks[count-1])
         }
     
