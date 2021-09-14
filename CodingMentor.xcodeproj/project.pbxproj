@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0416E17226F05A6700F99CBD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416E17126F05A6700F99CBD /* SettingViewController.swift */; };
 		0437B98626EF820500D920AC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B98526EF820500D920AC /* ListViewController.swift */; };
 		04652C0926E23D5B002BAE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04652C0826E23D5B002BAE05 /* AppDelegate.swift */; };
 		04652C0B26E23D5B002BAE05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04652C0A26E23D5B002BAE05 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0416E17126F05A6700F99CBD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		0437B98526EF820500D920AC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		04652C0526E23D5B002BAE05 /* Lispeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lispeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04652C0826E23D5B002BAE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,11 +105,12 @@
 		04652C0726E23D5B002BAE05 /* CodingMentor */ = {
 			isa = PBXGroup;
 			children = (
+				04652C0C26E23D5B002BAE05 /* ViewController.swift */,
 				0437B98526EF820500D920AC /* ListViewController.swift */,
 				047E2C3826F0243F00E7444A /* ListeningViewController.swift */,
+				0416E17126F05A6700F99CBD /* SettingViewController.swift */,
 				04652C0826E23D5B002BAE05 /* AppDelegate.swift */,
 				04652C0A26E23D5B002BAE05 /* SceneDelegate.swift */,
-				04652C0C26E23D5B002BAE05 /* ViewController.swift */,
 				04652C0E26E23D5B002BAE05 /* Main.storyboard */,
 				04652C1126E23D5E002BAE05 /* Assets.xcassets */,
 				04652C1326E23D5E002BAE05 /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 				04652C0926E23D5B002BAE05 /* AppDelegate.swift in Sources */,
 				0437B98626EF820500D920AC /* ListViewController.swift in Sources */,
 				04652C0B26E23D5B002BAE05 /* SceneDelegate.swift in Sources */,
+				0416E17226F05A6700F99CBD /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
